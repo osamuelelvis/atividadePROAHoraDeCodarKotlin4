@@ -1,7 +1,9 @@
 fun main() {
-    var cadastro_estudantes = ""
+    var nome_estudante = ""
     var contador = 0
-    for () {
 
+    print("Digite o nome do aluno (digite PARE quando quiser parar): ")
+    while (nome_estudante != "PARE") {
+        nome_estudante = readln().toString()
     }
 }
