@@ -1,9 +1,16 @@
 fun main() {
-    var nome_estudante = ""
-    var contador = 0
+    val nomes_estudantes = mutableListOf<String>()
+    var nome_estudante: String
 
-    print("Digite o nome do aluno (digite PARE quando quiser parar): ")
-    while (nome_estudante != "PARE") {
-        nome_estudante = readln().toString()
+    println("Digite o nome do aluno (digite PARE quando quiser parar)")
+    while (true) {
+        nome_estudante = readln()
+        if (nome_estudante == "PARE") {
+            break
+        }
+        nomes_estudantes.add(nome_estudante)
     }
+
+    println("O número de alunos é: ${nomes_estudantes.size}")
+    println("Nomes dos alunos: $nomes_estudantes")
 }
