@@ -1,15 +1,10 @@
 # 🧠 PROA - Hora de Codar 4 (Kotlin)
 
-Este repositório contém exercícios desenvolvidos em Kotlin como atividade do "Hora de Codar 4" do Instituto PROA, com foco na evolução da lógica de programação.
+Exercícios de lógica utilizando Kotlin.
 
 ## 📚 Sobre o projeto
 
-As atividades têm como objetivo praticar:
-
-- Sintaxe básica do Kotlin
-- Estruturas condicionais
-- Laços de repetição
-- Organização de código
+Neste módulo foi iniciada a aplicação de organização de itens em listas (array).
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -17,6 +12,18 @@ As atividades têm como objetivo praticar:
 
 ## 🚀 Como executar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/osamuelelvis/atividadePROAHoraDeCodarKotlin4.git
+1. Clone este repositório:
+```bash
+git clone https://github.com/osamuelelvis/atividadePROAHoraDeCodarKotlin4.git
+```
+2. Abra em uma IDE (ex: IntelliJ IDEA)
+3. Execute os arquivos `.kt`
+
+## 📈 Aprendizados
+
+- Sintaxe Kotlin
+- Organização de itens em listas (arrays)
+
+## 📌 Status do projeto
+
+✅ Concluído
